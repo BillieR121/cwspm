@@ -31,22 +31,22 @@
                 <div class="container">
                     <ul class="menu bg-dark align-right">
                         <li>
-                            <a class="{{ Request::path() === '/' ? 'current_page_item' : '' }} bg-dark text-white-50" href="/">Home</a>
+                            <a class="{{ Request::path() === '/' ? 'current_page_item' : '' }} bg-dark text-white-50" href="{{ route('home.homepage') }}">Home</a>
                         </li>
                         <li>
-                            <a class="{{ Request::path() === '/esimating' ? 'current_page_item' : '' }} bg-dark text-white-50" href="/estimating">Estimating</a>
+                            <a class="{{ Request::path() === '/esimating' ? 'current_page_item' : '' }} bg-dark text-white-50" href="{{ route('home.estimating') }}">Estimating</a>
                         </li>
                         <li>
-                            <a class="{{ Request::path() === '/pm' ? 'current_page_item' : '' }} bg-dark text-white-50" href="/pm">Project Management</a>
+                            <a class="{{ Request::path() === '/pm' ? 'current_page_item' : '' }} bg-dark text-white-50" href="{{ route('home.pm') }}">Project Management</a>
                         </li>
                         <li>
-                            <a class="{{ Request::path() === '/consulting' ? 'current_page_item' : '' }} bg-dark text-white-50" href="/consulting">Consulting</a>
+                            <a class="{{ Request::path() === '/consulting' ? 'current_page_item' : '' }} bg-dark text-white-50" href="{{ route('home.consulting') }}">Consulting</a>
                         </li>
                         <li>
-                            <a class="{{ Request::path() === '/drafting' ? 'current_page_item' : '' }} bg-dark text-white-50" href="/drafting">Drafting & Design</a>
+                            <a class="{{ Request::path() === '/drafting' ? 'current_page_item' : '' }} bg-dark text-white-50" href="{{ route('home.drafting') }}">Drafting & Design</a>
                         </li>
                         <li>
-                            <a class="{{ Request::path() === '/contact' ? 'current_page_item' : '' }} bg-dark text-white-50" href="/contact">Contact</a>
+                            <a class="{{ Request::path() === '/contact' ? 'current_page_item' : '' }} bg-dark text-white-50" href="{{ route('home.contact') }}">Contact</a>
                         </li>
                     </ul>
                 </div>

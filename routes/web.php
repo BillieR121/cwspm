@@ -13,17 +13,17 @@ use Illuminate\Support\Facades\Route;
 |
 */
 
-Route::get('/', 'HomeController@homepage');
+Route::get('/', 'HomeController@homepage')->name('home.homepage');
 
-Route::get('/estimating', 'HomeController@estimating');
+Route::get('/estimating', 'HomeController@estimating')->name('home.estimating');
 
-Route::get('/pm', 'HomeController@pm');
+Route::get('/pm', 'HomeController@pm')->name('home.pm');
 
-Route::get('/consulting', 'HomeController@consulting');
+Route::get('/consulting', 'HomeController@consulting')->name('home.consulting');
 
-Route::get('/drafting', 'HomeController@drafting');
+Route::get('/drafting', 'HomeController@drafting')->name('home.drafting');
 
-Route::get('/contact', 'HomeController@contact');
+Route::get('/contact', 'HomeController@contact')->name('home.contact');
 
 
 Route::get('/welcome', function () {
