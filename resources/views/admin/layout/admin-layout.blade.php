@@ -12,16 +12,15 @@
 
         </head>
         <body>
-            <header class="home-header-bg">
+            <header class="user-header-bg">
                 <div class="static-top">
                     <div class="row">
                         <div class="grid-container full">
                             <div class="grid-x">
-                                <div class="cell small-3"></div>
                                 <div class="cell small-6 align-center">
-                                    <img src="{{ asset('/img/home_header/cws_home_weblogo.png') }}"/>
+                                    <img src="{{ asset('/img/user_header/cws_page_weblogo.png') }}"/>
                                 </div>
-                                <div class="cell-3"></div>
+                                <div align="center" class="cell-6"><h1>Admin Console</h1></div>
                             </div>
                         </div>
                     </div>
@@ -47,9 +46,6 @@
                         </li>
                         <li>
                             <a class="{{ Request::path() === '/contact' ? 'current_page_item' : '' }} bg-dark text-white-50" href="{{ route('home.contact') }}">Contact</a>
-                        </li>
-                        <li>
-                            <a class="{{ Request::path() === '/contact' ? 'current_page_item' : '' }} bg-dark text-white-50" href="{{ route('admin.index') }}">Admin</a>
                         </li>
                     </ul>
                 </div>

@@ -7140,7 +7140,7 @@ button.bg-dark:focus {
 * Construction Web Services
 * (c) copyright Construction Web Services/Billie Robertson
 */
-.user-header {
+.user-header-bg {
   background-image: url("/img/user_header/user_header_background.png");
   background-repeat: repeat-x;
   height: 75px;
