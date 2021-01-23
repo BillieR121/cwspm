@@ -16,11 +16,11 @@
                 <div class="static-top">
                     <div class="row">
                         <div class="grid-container full">
-                            <div class="grid-x">
+                            <div class="grid-x align-middle">
                                 <div class="cell small-6 align-center">
                                     <img src="{{ asset('/img/user_header/cws_page_weblogo.png') }}"/>
                                 </div>
-                                <div align="center" class="cell-6"><h1>Admin Console</h1></div>
+                                <div align="center" class="cell-6"><h2>Admin Console</h2></div>
                             </div>
                         </div>
                     </div>
@@ -30,22 +30,25 @@
                 <div class="container">
                     <ul class="menu bg-dark align-right">
                         <li>
+                            <a class="{{ Request::path() === '/esimating' ? 'current_page_item' : '' }} bg-dark text-white-50" href="{{ route('user.index') }}">Users</a>
+                        </li>
+                        <li>
+                            <a class="{{ Request::path() === '/esimating' ? 'current_page_item' : '' }} bg-dark text-white-50" href="{{ route('contacts.index') }}">Contacts</a>
+                        </li>
+                        <li>
+                            <a class="{{ Request::path() === '/esimating' ? 'current_page_item' : '' }} bg-dark text-white-50" href="{{ route('division.index') }}">Divisions</a>
+                        </li>
+                        <li>
+                            <a class="{{ Request::path() === '/pm' ? 'current_page_item' : '' }} bg-dark text-white-50" href="{{ route('csi.index') }}">CSI Codes</a>
+                        </li>
+                        <li>
+                            <a class="{{ Request::path() === '/pm' ? 'current_page_item' : '' }} bg-dark text-white-50" href="{{ route('version.index') }}">Version</a>
+                        </li>
+                        <li>
+                            <a class="{{ Request::path() === '/contact' ? 'current_page_item' : '' }} bg-dark text-white-50" href="{{ route('admin.index') }}">Admin Home</a>
+                        </li>
+                        <li>
                             <a class="{{ Request::path() === '/' ? 'current_page_item' : '' }} bg-dark text-white-50" href="{{ route('home.homepage') }}">Home</a>
-                        </li>
-                        <li>
-                            <a class="{{ Request::path() === '/esimating' ? 'current_page_item' : '' }} bg-dark text-white-50" href="{{ route('home.estimating') }}">Estimating</a>
-                        </li>
-                        <li>
-                            <a class="{{ Request::path() === '/pm' ? 'current_page_item' : '' }} bg-dark text-white-50" href="{{ route('home.pm') }}">Project Management</a>
-                        </li>
-                        <li>
-                            <a class="{{ Request::path() === '/consulting' ? 'current_page_item' : '' }} bg-dark text-white-50" href="{{ route('home.consulting') }}">Consulting</a>
-                        </li>
-                        <li>
-                            <a class="{{ Request::path() === '/drafting' ? 'current_page_item' : '' }} bg-dark text-white-50" href="{{ route('home.drafting') }}">Drafting & Design</a>
-                        </li>
-                        <li>
-                            <a class="{{ Request::path() === '/contact' ? 'current_page_item' : '' }} bg-dark text-white-50" href="{{ route('home.contact') }}">Contact</a>
                         </li>
                     </ul>
                 </div>

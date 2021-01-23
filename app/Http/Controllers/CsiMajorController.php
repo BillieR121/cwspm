@@ -5,7 +5,7 @@ namespace App\Http\Controllers;
 use App\Models\CsiMajor;
 use Illuminate\Http\Request;
 
-class CsiMajor extends Controller
+class CsiMajorController extends Controller
 {
     /**
      * Display a listing of the resource.
@@ -14,7 +14,7 @@ class CsiMajor extends Controller
      */
     public function index()
     {
-        //
+        return view('/csi/index');
     }
 
     /**

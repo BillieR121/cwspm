@@ -14,7 +14,7 @@ class VersionController extends Controller
      */
     public function index()
     {
-        //
+        return view('/version/index');
     }
 
     /**
