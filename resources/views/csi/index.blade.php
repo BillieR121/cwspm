@@ -1,4 +1,4 @@
-@extends('admin/layout/admin-layout')
+@extends('layouts/admin-layout')
 
 @section('title')
     CWS Admin CSI Codes

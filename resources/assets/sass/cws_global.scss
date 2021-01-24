@@ -3,6 +3,7 @@
 * (c) copyright Construction Web Services/Billie Robertson
 */
 
+
 //Navigation
 .bg-dark {
 	background-color: #343a40 !important;
@@ -10,13 +11,15 @@
 .bg-dark:hover, a.bg-dark:focus,
     button.bg-dark:hover,
     button.bg-dark:focus {
-	background-color: #535e66 !important;
+    background-color: #535e66 !important;
 }
+
+
 //Footer
 .footer {
 	height: 30px;
 	width: 100%;
-	background-color: #343a40 !important;
+	background-color: $dark-gray !important;
 	background-image: none;
 	background-repeat: repeat;
 	background-attachment: scroll;

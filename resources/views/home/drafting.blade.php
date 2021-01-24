@@ -1,4 +1,4 @@
-@extends('home/layout/home-layout')
+@extends('layouts/home-layout')
 
 @section('title')
     CWS Drafting & Design
