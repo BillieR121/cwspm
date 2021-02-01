@@ -30,32 +30,32 @@
                 <div class="grid-container full">
                     <ul class="menu bg-dark align-right">
                         <li>
-                            <a class="{{ Request::path() === '/esimating' ? 'current_page_item' : '' }} bg-dark text-white-50" href="{{ route('user.index') }}">Users</a>
+                            <a class="{{ Request::path() === '/esimating' ? 'current_page_item' : '' }} bg-dark cws-menu-text" href="{{ route('user.index') }}">Users</a>
                         </li>
                         <li>
-                            <a class="{{ Request::path() === '/esimating' ? 'current_page_item' : '' }} bg-dark text-white-50" href="{{ route('contacts.index') }}">Contacts</a>
+                            <a class="{{ Request::path() === '/esimating' ? 'current_page_item' : '' }} bg-dark cws-menu-text" href="{{ route('contacts.index') }}">Contacts</a>
                         </li>
                         <li>
-                            <a class="{{ Request::path() === '/esimating' ? 'current_page_item' : '' }} bg-dark text-white-50" href="{{ route('division.index') }}">Divisions</a>
+                            <a class="{{ Request::path() === '/esimating' ? 'current_page_item' : '' }} bg-dark cws-menu-text" href="{{ route('division.index') }}">Divisions</a>
                         </li>
                         <li>
-                            <a class="{{ Request::path() === '/pm' ? 'current_page_item' : '' }} bg-dark text-white-50" href="{{ route('csi.index') }}">CSI Codes</a>
+                            <a class="{{ Request::path() === '/pm' ? 'current_page_item' : '' }} bg-dark cws-menu-text" href="{{ route('csi.index') }}">CSI Codes</a>
                         </li>
                         <li>
-                            <a class="{{ Request::path() === '/pm' ? 'current_page_item' : '' }} bg-dark text-white-50" href="{{ route('version.index') }}">Version</a>
+                            <a class="{{ Request::path() === '/pm' ? 'current_page_item' : '' }} bg-dark cws-menu-text" href="{{ route('version.index') }}">Version</a>
                         </li>
                         <li>
-                            <a class="{{ Request::path() === '/contact' ? 'current_page_item' : '' }} bg-dark text-white-50" href="{{ route('admin.index') }}">Admin Home</a>
+                            <a class="{{ Request::path() === '/contact' ? 'current_page_item' : '' }} bg-dark cws-menu-text" href="{{ route('admin.index') }}">Admin Home</a>
                         </li>
                         <li>
-                            <a class="{{ Request::path() === '/' ? 'current_page_item' : '' }} bg-dark text-white-50" href="{{ route('home.homepage') }}">Home</a>
+                            <a class="{{ Request::path() === '/' ? 'current_page_item' : '' }} bg-dark cws-menu-text" href="{{ route('home.homepage') }}">Home</a>
                         </li>
                     </ul>
                 </div>
             </nav>
             @yield('content')
                 <footer class="footer">
-                    <div class="text-center text-white-50">
+                    <div class="text-center cws-menu-text">
                         <p class="font-weight-bold">Copyright &copy; Construction Web Services. 2019 - {{ now()->year }} Version <strong><em>{{ $version }}</em></strong></p>
                     </div>
                 </footer>
