@@ -27,7 +27,7 @@
                 </div>
             </header>
             <nav class="static-top">
-                <div class="container">
+                <div class="grid-container full">
                     <ul class="menu bg-dark align-right">
                         <li>
                             <a class="{{ Request::path() === '/esimating' ? 'current_page_item' : '' }} bg-dark text-white-50" href="{{ route('user.index') }}">Users</a>
@@ -54,8 +54,8 @@
                 </div>
             </nav>
             @yield('content')
-                <footer>
-                    <div class="footer text-center text-white-50">
+                <footer class="footer">
+                    <div class="text-center text-white-50">
                         <p class="font-weight-bold">Copyright &copy; Construction Web Services. 2019 - {{ now()->year }} Version <strong><em>{{ $version }}</em></strong></p>
                     </div>
                 </footer>

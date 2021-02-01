@@ -8,7 +8,7 @@
     <div class="row">
         <div class="grid-container full">
             <div class="grid-x">
-                <h1>Admin Home Page</hi>
+                <h1>Admin Home Page</h1>
             </div>
         </div>
     </div>

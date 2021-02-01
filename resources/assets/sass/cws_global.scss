@@ -6,12 +6,10 @@
 
 //Navigation
 .bg-dark {
-	background-color: #343a40 !important;
+	background-color: $dark-gray !important;
 }
-.bg-dark:hover, a.bg-dark:focus,
-    button.bg-dark:hover,
-    button.bg-dark:focus {
-    background-color: #535e66 !important;
+a.bg-dark:hover, a.bg-dark:focus {
+    background-color: $light-gray !important;
 }
 
 
@@ -21,7 +19,7 @@
 	width: 100%;
 	background-color: $dark-gray !important;
 	background-image: none;
-	background-repeat: repeat;
+	background-repeat: no-repeat;
 	background-attachment: scroll;
 	background-position: 0% 0%;
 	position: fixed;
