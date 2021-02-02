@@ -12,7 +12,7 @@
     				<h2 class="home-title subheader">Estimating</h2>
     			</div>
     			<div class="cell small-6">
-    				<h4>
+    				<h4 class="home-content">
     					Construction Web Services works with General Contractors, Sub-Contractors & Owners. We supply a wide range of estimating services including, Total Cost Estimates, Specific Cost Estimates, Material Take-offs, Labor Cost Items, Allowances & General Conditions for contractors. We can customize our estimates to meet your needs. Please
     					<strong><em><a href="/contact">contact us</a></em></strong> if you are interested in obtaining our services.
     					<br><br>

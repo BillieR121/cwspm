@@ -12,7 +12,7 @@
     				<h2 class="subheader">Project<br> Management</h2>
     			</div>
     			<div class="cell small-6">
-    				<h4>
+    				<h4 class="home-content">
     					Constructions Web Services limits our Project Management Services to processing Submittals on projects that we bid with you. We can provide all the submittals to you for the items <strong><em>we bid with you initially</em></strong> for a small additional fee. This Service is provided as a convenience for the contractors we work with. <strong><em>On-site visits can be arranged.</em></strong>
     					<br><br>
     					We look forward to working with you!

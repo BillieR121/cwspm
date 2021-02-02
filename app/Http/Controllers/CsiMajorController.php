@@ -14,7 +14,7 @@ class CsiMajorController extends Controller
      */
     public function index()
     {
-        return view('/csi/index');
+        return view('csi.index');
     }
 
     /**
@@ -24,7 +24,7 @@ class CsiMajorController extends Controller
      */
     public function create()
     {
-        //
+        return view('csi.create');
     }
 
     /**

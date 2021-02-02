@@ -6,23 +6,20 @@
 
 @section('content')
     <div class="row contact-bg home-content">
-    	<div class="flex-container align-spaced">
-            <div class="flex-child-auto home-title">
-                <h2 class="subheader">Contact Info</h2>
-            </div>
-            <div align="center" class="flex-child-auto">
-                <h3 class="font-weight-bold">
-                    <br>
-                    Construction Web Services
-                    <br>
-                    4611 E. County Rd. 130
-                    <br>
-                    Midland, TX 79706
-                    <br>
-                    <a href='mailto:contact@cws-pm.com'>contact@cws-pm.com</a>
-                    <br>
-                    (432) 425-0968
-                </h3>
+        <div class="grid-container full">
+            <div class="grid-x">
+                <div class="cell small-3 home-title">
+                    <h2 class="subheader">Contact Info</h2>
+                </div>
+                <div class="cell small-6">
+                    <h3 class="home-content">
+                        Construction Web Services<br>
+                        4611 E. County Rd. 130<br>
+                        Midland, TX 79706<br>
+                        contact@cws-pm.com<br>
+                    </h3>
+                    <div class="cell small-3"></div>
+                </div>
             </div>
         </div>
     </div>

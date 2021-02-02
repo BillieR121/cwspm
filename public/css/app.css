@@ -7098,7 +7098,7 @@ a.bg-dark:hover, a.bg-dark:active {
 .home-bg {
   background: url("/img/backgrounds/cws_home_bg.png") no-repeat center center;
   background-size: cover;
-  height: 600px;
+  height: 1000px;
   position: fixed;
 }
 
@@ -7133,7 +7133,7 @@ a.bg-dark:hover, a.bg-dark:active {
 .contact-bg {
   background: url("/img/backgrounds/cws_contact_bg.png") no-repeat center center;
   background-size: cover;
-  height: 600px;
+  height: 1000px;
   position: fixed;
 }
 
