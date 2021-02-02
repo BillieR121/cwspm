@@ -4638,18 +4638,18 @@ table.hover:not(.unstriped) tr:nth-of-type(even):hover {
   padding: 1.25rem 1.5rem;
   font-size: 0.875rem;
   line-height: 1;
-  color: rgba(254, 254, 254, 0.65);
+  color: rgba(254, 254, 254, 0.85);
 }
 [data-whatinput=mouse] .tabs-title > a {
   outline: 0;
 }
 .tabs-title > a:hover {
   background: #535e66;
-  color: rgba(218, 218, 218, 0.65);
+  color: rgba(218, 218, 218, 0.85);
 }
 .tabs-title > a:focus, .tabs-title > a[aria-selected=true] {
   background: #535e66;
-  color: rgba(254, 254, 254, 0.65);
+  color: rgba(254, 254, 254, 0.85);
 }
 
 .tabs-content {
@@ -7049,7 +7049,7 @@ ol.list-upper-roman {
   background-color: #343a40 !important;
 }
 
-a.bg-dark:hover, a.bg-dark:focus {
+a.bg-dark:hover, a.bg-dark:active {
   background-color: #535e66 !important;
 }
 
@@ -7068,7 +7068,7 @@ a.bg-dark:hover, a.bg-dark:focus {
 }
 
 .cws-menu-text {
-  color: rgba(254, 254, 254, 0.65) !important;
+  color: rgba(254, 254, 254, 0.85) !important;
 }
 
 /**
