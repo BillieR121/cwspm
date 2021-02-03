@@ -30,25 +30,25 @@
                 <div class="grid-container full">
                     <ul class="menu bg-dark align-right">
                         <li>
-                            <a class="{{ Request::path() === '/esimating' ? 'current_page_item' : '' }} bg-dark cws-menu-text" href="{{ route('user.index') }}">Users</a>
+                            <a class="bg-dark cws-menu-text" href="{{ route('user.index') }}">Users</a>
                         </li>
                         <li>
-                            <a class="{{ Request::path() === '/esimating' ? 'current_page_item' : '' }} bg-dark cws-menu-text" href="{{ route('contacts.index') }}">Contacts</a>
+                            <a class="bg-dark cws-menu-text" href="{{ route('contacts.index') }}">Contacts</a>
                         </li>
                         <li>
-                            <a class="{{ Request::path() === '/esimating' ? 'current_page_item' : '' }} bg-dark cws-menu-text" href="{{ route('division.index') }}">Divisions</a>
+                            <a class="bg-dark cws-menu-text" href="{{ route('division.index') }}">Divisions</a>
                         </li>
                         <li>
-                            <a class="{{ Request::path() === '/pm' ? 'current_page_item' : '' }} bg-dark cws-menu-text" href="{{ route('csi.index') }}">CSI Codes</a>
+                            <a class=" bg-dark cws-menu-text" href="{{ route('csi.index') }}">CSI Codes</a>
                         </li>
                         <li>
-                            <a class="{{ Request::path() === '/pm' ? 'current_page_item' : '' }} bg-dark cws-menu-text" href="{{ route('version.index') }}">Version</a>
+                            <a class="bg-dark cws-menu-text" href="{{ route('version.index') }}">Version</a>
                         </li>
                         <li>
-                            <a class="{{ Request::path() === '/contact' ? 'current_page_item' : '' }} bg-dark cws-menu-text" href="{{ route('admin.index') }}">Admin Home</a>
+                            <a class="bg-dark cws-menu-text" href="{{ route('admin.index') }}">Admin Home</a>
                         </li>
                         <li>
-                            <a class="{{ Request::path() === '/' ? 'current_page_item' : '' }} bg-dark cws-menu-text" href="{{ route('home.homepage') }}">Home</a>
+                            <a class="bg-dark cws-menu-text" href="{{ route('home.homepage') }}">Home</a>
                         </li>
                     </ul>
                 </div>

@@ -31,25 +31,25 @@
                 <div class="container">
                     <ul class="menu bg-dark align-right">
                         <li>
-                            <a class="{{ Request::path() === '/' ? 'current_page_item' : '' }} bg-dark cws-menu-text" href="{{ route('home.homepage') }}">Home</a>
+                            <a class="bg-dark cws-menu-text" href="{{ route('home.homepage') }}">Home</a>
                         </li>
                         <li>
-                            <a class="{{ Request::path() === '/esimating' ? 'current_page_item' : '' }} bg-dark cws-menu-text" href="{{ route('home.estimating') }}">Estimating</a>
+                            <a class="bg-dark cws-menu-text" href="{{ route('home.estimating') }}">Estimating</a>
                         </li>
                         <li>
-                            <a class="{{ Request::path() === '/pm' ? 'current_page_item' : '' }} bg-dark cws-menu-text" href="{{ route('home.pm') }}">Project Management</a>
+                            <a class="bg-dark cws-menu-text" href="{{ route('home.pm') }}">Project Management</a>
                         </li>
                         <li>
-                            <a class="{{ Request::path() === '/consulting' ? 'current_page_item' : '' }} bg-dark cws-menu-text" href="{{ route('home.consulting') }}">Consulting</a>
+                            <a class="bg-dark cws-menu-text" href="{{ route('home.consulting') }}">Consulting</a>
                         </li>
                         <li>
-                            <a class="{{ Request::path() === '/drafting' ? 'current_page_item' : '' }} bg-dark cws-menu-text" href="{{ route('home.drafting') }}">Drafting & Design</a>
+                            <a class="bg-dark cws-menu-text" href="{{ route('home.drafting') }}">Drafting & Design</a>
                         </li>
                         <li>
-                            <a class="{{ Request::path() === '/contact' ? 'current_page_item' : '' }} bg-dark cws-menu-text" href="{{ route('home.contact') }}">Contact</a>
+                            <a class="bg-dark cws-menu-text" href="{{ route('home.contact') }}">Contact</a>
                         </li>
                         <li>
-                            <a class="{{ Request::path() === '/contact' ? 'current_page_item' : '' }} bg-dark cws-menu-text" href="{{ route('admin.index') }}">Admin</a>
+                            <a class="bg-dark cws-menu-text" href="{{ route('admin.index') }}">Admin</a>
                         </li>
                     </ul>
                 </div>
