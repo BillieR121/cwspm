@@ -12,6 +12,11 @@ a.bg-dark:hover{
     background-color: $light-gray !important;
 }
 
+// Text Control
+.cws-menu-text {
+    color: $cws-menu-text !important;
+    opacity: 0.75;
+}
 
 //Footer
 .footer {
@@ -28,7 +33,3 @@ a.bg-dark:hover{
 	align-content: middle;
 }
 
-// Text Control
-.cws-menu-text {
-	color: $cws-menu-text !important;
-}
