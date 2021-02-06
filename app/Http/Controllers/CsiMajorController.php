@@ -13,7 +13,7 @@ class CsiMajorController extends Controller
      */
     public function index()
     {
-        //
+        return view('admin.csimajor.index');
     }
 
     /**
