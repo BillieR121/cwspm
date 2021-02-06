@@ -2,7 +2,6 @@
 
 namespace App\Http\Controllers;
 
-use App\Models\CsiMajor;
 use Illuminate\Http\Request;
 
 class CsiMajorController extends Controller
@@ -14,7 +13,7 @@ class CsiMajorController extends Controller
      */
     public function index()
     {
-        return view('csi.index');
+        //
     }
 
     /**
@@ -24,7 +23,7 @@ class CsiMajorController extends Controller
      */
     public function create()
     {
-        return view('csi.create');
+        //
     }
 
     /**
@@ -41,10 +40,10 @@ class CsiMajorController extends Controller
     /**
      * Display the specified resource.
      *
-     * @param  \App\Models\CsiMajor  $csiMajor
+     * @param  int  $id
      * @return \Illuminate\Http\Response
      */
-    public function show(CsiMajor $csiMajor)
+    public function show($id)
     {
         //
     }
@@ -52,10 +51,10 @@ class CsiMajorController extends Controller
     /**
      * Show the form for editing the specified resource.
      *
-     * @param  \App\Models\CsiMajor  $csiMajor
+     * @param  int  $id
      * @return \Illuminate\Http\Response
      */
-    public function edit(CsiMajor $csiMajor)
+    public function edit($id)
     {
         //
     }
@@ -64,10 +63,10 @@ class CsiMajorController extends Controller
      * Update the specified resource in storage.
      *
      * @param  \Illuminate\Http\Request  $request
-     * @param  \App\Models\CsiMajor  $csiMajor
+     * @param  int  $id
      * @return \Illuminate\Http\Response
      */
-    public function update(Request $request, CsiMajor $csiMajor)
+    public function update(Request $request, $id)
     {
         //
     }
@@ -75,10 +74,10 @@ class CsiMajorController extends Controller
     /**
      * Remove the specified resource from storage.
      *
-     * @param  \App\Models\CsiMajor  $csiMajor
+     * @param  int  $id
      * @return \Illuminate\Http\Response
      */
-    public function destroy(CsiMajor $csiMajor)
+    public function destroy($id)
     {
         //
     }

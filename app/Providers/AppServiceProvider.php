@@ -23,8 +23,8 @@ class AppServiceProvider extends ServiceProvider
      */
     public function boot()
     {
-        view()->composer('*', function ($view) {
-            $view->with('version', '1.0.1');
-        });
+
+        view()->share('version', '1.01');
+
     }
 }

@@ -1,2 +1,2 @@
 import $ from 'jquery';
-import foundation from 'foundation-sites';
+import foundation from '../sass/foundation-sites/js/foundation';

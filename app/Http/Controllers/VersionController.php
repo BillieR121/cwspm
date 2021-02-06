@@ -2,7 +2,6 @@
 
 namespace App\Http\Controllers;
 
-use App\Models\Version;
 use Illuminate\Http\Request;
 
 class VersionController extends Controller
@@ -14,7 +13,7 @@ class VersionController extends Controller
      */
     public function index()
     {
-        return view('/version/index');
+        //
     }
 
     /**
@@ -41,10 +40,10 @@ class VersionController extends Controller
     /**
      * Display the specified resource.
      *
-     * @param  \App\Models\Version  $version
+     * @param  int  $id
      * @return \Illuminate\Http\Response
      */
-    public function show(Version $version)
+    public function show($id)
     {
         //
     }
@@ -52,10 +51,10 @@ class VersionController extends Controller
     /**
      * Show the form for editing the specified resource.
      *
-     * @param  \App\Models\Version  $version
+     * @param  int  $id
      * @return \Illuminate\Http\Response
      */
-    public function edit(Version $version)
+    public function edit($id)
     {
         //
     }
@@ -64,10 +63,10 @@ class VersionController extends Controller
      * Update the specified resource in storage.
      *
      * @param  \Illuminate\Http\Request  $request
-     * @param  \App\Models\Version  $version
+     * @param  int  $id
      * @return \Illuminate\Http\Response
      */
-    public function update(Request $request, Version $version)
+    public function update(Request $request, $id)
     {
         //
     }
@@ -75,10 +74,10 @@ class VersionController extends Controller
     /**
      * Remove the specified resource from storage.
      *
-     * @param  \App\Models\Version  $version
+     * @param  int  $id
      * @return \Illuminate\Http\Response
      */
-    public function destroy(Version $version)
+    public function destroy($id)
     {
         //
     }
