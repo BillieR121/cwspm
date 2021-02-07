@@ -1,4 +1,4 @@
-@extends('layouts/home-layout')
+@extends('layouts.home-layout')
 
 @section('title')
     CWS Homepage

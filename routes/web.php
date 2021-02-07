@@ -16,15 +16,10 @@ use Illuminate\Support\Facades\Route;
 // Home Routes
 
     Route::get('/', 'HomeController@homepage')->name('home.homepage');
-
     Route::get('/estimating', 'HomeController@estimating')->name('home.estimating');
-
     Route::get('/pm', 'HomeController@pm')->name('home.pm');
-
     Route::get('/consulting', 'HomeController@consulting')->name('home.consulting');
-
     Route::get('/drafting', 'HomeController@drafting')->name('home.drafting');
-
     Route::get('/contact', 'HomeController@contact')->name('home.contact');
 
 // Admin Routes
