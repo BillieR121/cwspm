@@ -3,17 +3,17 @@
 * (c) copyright Construction Web Services/Billie Robertson
 */
 
-//Home Header Background
-.home-header-bg {
-	background-image: url("/img/home_header/home_header_background.png");
+//public Header Background
+.public-header-bg {
+	background-image: url("/img/public_header/public_header_background.png");
 	background-repeat: repeat-x;
 }
 // Text Control
-.home-content{
+.public-content{
 	padding-top: 35px;
 }
 
-.home-title {
+.public-title {
 	padding-left: 30px;
 }
 
@@ -28,8 +28,8 @@
 
 //Backgrounds
 
-.home-bg {
-	background: url("/img/backgrounds/cws_home_bg.png") no-repeat center center;
+.public-bg {
+	background: url("/img/backgrounds/cws_public_bg.png") no-repeat center center;
 	background-size: cover;
 	height: 1000px;
 	position: fixed;

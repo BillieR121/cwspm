@@ -4,30 +4,30 @@ namespace App\Http\Controllers;
 
 use Illuminate\Http\Request;
 
-class HomeController extends Controller
+class PublicController extends Controller
 {
     public function homepage()
     {
-        return view('home.homepage');
+        return view('public.homepage');
     }
     public function estimating()
     {
-        return view('home.estimating');
+        return view('public.estimating');
     }
     public function pm()
     {
-        return view('home.pm');
+        return view('public.pm');
     }
     public function consulting()
     {
-        return view('home.consulting');
+        return view('public.consulting');
     }
     public function drafting()
     {
-        return view('home.drafting');
+        return view('public.drafting');
     }
     public function contact()
     {
-        return view('home.contact');
+        return view('public.contact');
     }
 }

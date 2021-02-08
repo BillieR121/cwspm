@@ -48,7 +48,7 @@
                             <a class="bg-dark cws-menu-text" href="{{ route('admin.index') }}">Admin Home</a>
                         </li>
                         <li>
-                            <a class="bg-dark cws-menu-text" href="{{ route('home.homepage') }}">Home</a>
+                            <a class="bg-dark cws-menu-text" href="{{ route('public.homepage') }}">Home</a>
                         </li>
                     </ul>
                 </div>

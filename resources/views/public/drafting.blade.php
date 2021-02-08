@@ -1,14 +1,14 @@
-@extends('layouts.home-layout')
+@extends('layouts.public-layout')
 
 @section('title')
     CWS Drafting & Design
 @endsection
 
 @section('content')
-    <div class="row drafting-bg home-content">
+    <div class="row drafting-bg public-content">
     	<div class="grid-container full">
     		<div class="grid-x">
-    			<div class="cell small-3 home-title">
+    			<div class="cell small-3 public-title">
     				<h2 class="subheader">Drafting & Design</h2>
     			</div>
     			<div class="cell small-6">

@@ -12,14 +12,14 @@
 
         </head>
         <body>
-            <header class="home-header-bg">
+            <header class="public-header-bg">
                 <div class="static-top">
                     <div class="row">
                         <div class="grid-container full">
                             <div class="grid-x">
                                 <div class="cell small-3"></div>
                                 <div class="cell small-6 align-center">
-                                    <img src="{{ asset('/img/home_header/cws_home_weblogo.png') }}"/>
+                                    <img src="{{ asset('/img/public_header/cws_public_weblogo.png') }}"/>
                                 </div>
                                 <div class="cell-3"></div>
                             </div>
@@ -31,22 +31,22 @@
                 <div class="container">
                     <ul class="menu bg-dark align-right">
                         <li>
-                            <a class="bg-dark cws-menu-text" href="{{ route('home.homepage') }}">Home</a>
+                            <a class="bg-dark cws-menu-text" href="{{ route('public.homepage') }}">Home</a>
                         </li>
                         <li>
-                            <a class="bg-dark cws-menu-text" href="{{ route('home.estimating') }}">Estimating</a>
+                            <a class="bg-dark cws-menu-text" href="{{ route('public.estimating') }}">Estimating</a>
                         </li>
                         <li>
-                            <a class="bg-dark cws-menu-text" href="{{ route('home.pm') }}">Project Management</a>
+                            <a class="bg-dark cws-menu-text" href="{{ route('public.pm') }}">Project Management</a>
                         </li>
                         <li>
-                            <a class="bg-dark cws-menu-text" href="{{ route('home.consulting') }}">Consulting</a>
+                            <a class="bg-dark cws-menu-text" href="{{ route('public.consulting') }}">Consulting</a>
                         </li>
                         <li>
-                            <a class="bg-dark cws-menu-text" href="{{ route('home.drafting') }}">Drafting & Design</a>
+                            <a class="bg-dark cws-menu-text" href="{{ route('public.drafting') }}">Drafting & Design</a>
                         </li>
                         <li>
-                            <a class="bg-dark cws-menu-text" href="{{ route('home.contact') }}">Contact</a>
+                            <a class="bg-dark cws-menu-text" href="{{ route('public.contact') }}">Contact</a>
                         </li>
                         <li>
                             <a class="bg-dark cws-menu-text" href="{{ route('admin.index') }}">Admin</a>
