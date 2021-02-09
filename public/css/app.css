@@ -339,15 +339,15 @@ input[type=search] {
 }
 
 ::-moz-placeholder {
-  color: #cacaca;
+  color: #535e66;
 }
 
 :-ms-input-placeholder {
-  color: #cacaca;
+  color: #535e66;
 }
 
 ::placeholder {
-  color: #cacaca;
+  color: #535e66;
 }
 
 [type=file],

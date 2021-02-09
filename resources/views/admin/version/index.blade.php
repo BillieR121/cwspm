@@ -1,5 +1,9 @@
 @extends('layouts.admin-layout')
 
+@section('title')
+    CWS Admin Version
+@endsection
+
 @section('content')
     <div class="row">
         <div class="grid-container full">
