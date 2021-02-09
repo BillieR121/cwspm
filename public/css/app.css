@@ -228,13 +228,13 @@ img {
 textarea {
   height: auto;
   min-height: 50px;
-  border-radius: 10;
+  border-radius: 12.5px;
 }
 
 select {
   box-sizing: border-box;
   width: 100%;
-  border-radius: 10;
+  border-radius: 12.5px;
 }
 
 .map_canvas img,
@@ -252,7 +252,7 @@ button {
      -moz-appearance: none;
           appearance: none;
   border: 0;
-  border-radius: 10;
+  border-radius: 12.5px;
   background: transparent;
   line-height: 1;
   cursor: auto;
@@ -290,7 +290,7 @@ textarea {
   margin: 0 0 1rem;
   padding: 0.5rem;
   border: 1px solid #cacaca;
-  border-radius: 10;
+  border-radius: 12.5px;
   background-color: #fefefe;
   box-shadow: inset 0 1px 2px rgba(10, 10, 10, 0.1);
   font-family: inherit;
@@ -331,7 +331,7 @@ textarea[readonly] {
   -webkit-appearance: none;
      -moz-appearance: none;
           appearance: none;
-  border-radius: 10;
+  border-radius: 12.5px;
 }
 
 input[type=search] {
@@ -405,10 +405,10 @@ label.middle {
   align-items: stretch;
 }
 .input-group > :first-child, .input-group > :first-child.input-group-button > * {
-  border-radius: 10 0 0 10;
+  border-radius: 12.5px 0 0 12.5px;
 }
 .input-group > :last-child, .input-group > :last-child.input-group-button > * {
-  border-radius: 0 10 10 0;
+  border-radius: 0 12.5px 12.5px 0;
 }
 
 .input-group-button a,
@@ -491,7 +491,7 @@ select {
      -moz-appearance: none;
           appearance: none;
   border: 1px solid #cacaca;
-  border-radius: 10;
+  border-radius: 12.5px;
   background-color: #fefefe;
   font-family: inherit;
   font-size: 1rem;
@@ -784,7 +784,7 @@ kbd {
   background-color: #535e66;
   font-family: Consolas, "Liberation Mono", Courier, monospace;
   color: #0a0a0a;
-  border-radius: 10;
+  border-radius: 12.5px;
 }
 
 .subheader {
@@ -3163,7 +3163,7 @@ h3 {
   margin: 0 0 1rem 0;
   padding: 0.85em 1em;
   border: 1px solid transparent;
-  border-radius: 10;
+  border-radius: 12.5px;
   transition: background-color 0.25s ease-out, color 0.25s ease-out;
   font-family: inherit;
   font-size: 0.9rem;
@@ -3628,7 +3628,7 @@ a.button:hover, a.button:focus {
 .label {
   display: inline-block;
   padding: 0.33333rem 0.5rem;
-  border-radius: 10;
+  border-radius: 12.5px;
   font-size: 0.8rem;
   line-height: 1;
   white-space: nowrap;
@@ -3660,7 +3660,7 @@ a.button:hover, a.button:focus {
 .progress {
   height: 1rem;
   margin-bottom: 1rem;
-  border-radius: 10;
+  border-radius: 12.5px;
   background-color: #cacaca;
 }
 .progress.primary .progress-meter {
@@ -3685,7 +3685,7 @@ a.button:hover, a.button:focus {
   width: 0%;
   height: 100%;
   background-color: #1779ba;
-  border-radius: 10;
+  border-radius: 12.5px;
 }
 
 .progress-meter-text {
@@ -3698,7 +3698,7 @@ a.button:hover, a.button:focus {
   font-weight: bold;
   color: #fefefe;
   white-space: nowrap;
-  border-radius: 10;
+  border-radius: 12.5px;
 }
 
 .slider {
@@ -3738,7 +3738,7 @@ a.button:hover, a.button:focus {
   display: inline-block;
   width: 1.4rem;
   height: 1.4rem;
-  border-radius: 10;
+  border-radius: 12.5px;
   background-color: #1779ba;
   transition: all 0.2s ease-in-out;
   touch-action: manipulation;
@@ -3805,7 +3805,7 @@ a.button:hover, a.button:focus {
   display: block;
   width: 4rem;
   height: 2rem;
-  border-radius: 10;
+  border-radius: 12.5px;
   background: #cacaca;
   transition: all 0.25s ease-out;
   font-weight: inherit;
@@ -3823,7 +3823,7 @@ input + .switch-paddle {
   width: 1.5rem;
   height: 1.5rem;
   transform: translate3d(0, 0, 0);
-  border-radius: 10;
+  border-radius: 12.5px;
   background: #fefefe;
   transition: all 0.25s ease-out;
   content: "";
@@ -3921,7 +3921,7 @@ table {
   border-collapse: collapse;
   width: 100%;
   margin-bottom: 1rem;
-  border-radius: 10;
+  border-radius: 12.5px;
 }
 thead,
 tbody,
@@ -4091,7 +4091,7 @@ table.hover:not(.unstriped) tr:nth-of-type(even):hover {
   margin: 0 0 1rem 0;
   padding: 1rem;
   border: 1px solid rgba(10, 10, 10, 0.25);
-  border-radius: 10;
+  border-radius: 12.5px;
   background-color: white;
   color: #0a0a0a;
 }
@@ -4140,7 +4140,7 @@ table.hover:not(.unstriped) tr:nth-of-type(even):hover {
   flex-grow: 1;
   margin-bottom: 1rem;
   border: 1px solid #535e66;
-  border-radius: 10;
+  border-radius: 12.5px;
   background: #fefefe;
   box-shadow: none;
   overflow: hidden;
@@ -4180,7 +4180,7 @@ table.hover:not(.unstriped) tr:nth-of-type(even):hover {
   padding: 1rem;
   visibility: hidden;
   border: 1px solid #cacaca;
-  border-radius: 10;
+  border-radius: 12.5px;
   background-color: #fefefe;
   font-size: 1rem;
 }
@@ -4219,7 +4219,7 @@ table.hover:not(.unstriped) tr:nth-of-type(even):hover {
 }
 .pagination li {
   margin-right: 0.0625rem;
-  border-radius: 10;
+  border-radius: 12.5px;
   font-size: 0.875rem;
   display: none;
 }
@@ -4235,7 +4235,7 @@ table.hover:not(.unstriped) tr:nth-of-type(even):hover {
 .pagination button {
   display: block;
   padding: 0.1875rem 0.625rem;
-  border-radius: 10;
+  border-radius: 12.5px;
   color: #0a0a0a;
 }
 .pagination a:hover,
@@ -4290,7 +4290,7 @@ table.hover:not(.unstriped) tr:nth-of-type(even):hover {
   z-index: 1200;
   max-width: 10rem;
   padding: 0.75rem;
-  border-radius: 10;
+  border-radius: 12.5px;
   background-color: #0a0a0a;
   font-size: 80%;
   color: #fefefe;
@@ -4389,10 +4389,10 @@ table.hover:not(.unstriped) tr:nth-of-type(even):hover {
 }
 
 .accordion-item:first-child > :first-child {
-  border-radius: 10 10 0 0;
+  border-radius: 12.5px 12.5px 0 0;
 }
 .accordion-item:last-child > :last-child {
-  border-radius: 0 0 10 10;
+  border-radius: 0 0 12.5px 12.5px;
 }
 
 .accordion-title {
@@ -4407,7 +4407,7 @@ table.hover:not(.unstriped) tr:nth-of-type(even):hover {
 }
 :last-child:not(.is-active) > .accordion-title {
   border-bottom: 1px solid #535e66;
-  border-radius: 0 0 10 10;
+  border-radius: 0 0 12.5px 12.5px;
 }
 .accordion-title:hover, .accordion-title:focus {
   background-color: #535e66;
@@ -4678,7 +4678,7 @@ table.hover:not(.unstriped) tr:nth-of-type(even):hover {
   max-width: 100%;
   margin-bottom: 1rem;
   border: 4px solid #fefefe;
-  border-radius: 10;
+  border-radius: 12.5px;
   box-shadow: 0 0 0 1px rgba(10, 10, 10, 0.2);
   line-height: 0;
 }
@@ -5836,7 +5836,7 @@ html.is-reveal-open body {
   display: none;
   padding: 1rem;
   border: 1px solid #cacaca;
-  border-radius: 10;
+  border-radius: 12.5px;
   background-color: #fefefe;
   position: relative;
   top: 100px;

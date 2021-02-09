@@ -18,9 +18,10 @@
                         </li>
                     </ul>
                 </div>
-                <div class="cell small-10">
+                <div class="cell small-8">
                     <h2 class="subheader" align="center">CSI Major Index</h2><br><br>
                 </div>
+                <div class="cell small-2"></div>
             </div>
         </div>
     </div>

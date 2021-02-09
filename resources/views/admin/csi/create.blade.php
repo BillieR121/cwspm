@@ -8,20 +8,18 @@
     <div class="row">
         <div class="grid-container full">
             <div class="grid-x">
-                <div class="cell small-1">
-                    <ul class="vertical menu bg-dark cws-menu-text">
+                <div class="cell small-2">
+                    <ul class="vertical menu bg-dark">
                         <li>
                             <a class="bg-dark cws-menu-text" href="{{ route('admin.csi.index') }}">CSI Index</a>
                         </li>
                         <li>
                             <a class="bg-dark cws-menu-text" href="{{ route('admin.csi.create') }}">Add CSI Code</a>
                         </li>
-                        <li><a class="bg-dark cws-menu-text" href="#">Edit CSI Code</a></li>
-                        <li><a class="bg-dark cws-menu-text" href="#">Delete CSI Code</a></li>
                     </ul>
                 </div>
-                <div class="'cell small-3"></div>
-                <div class="cell small-4 home-title home-content">
+                <div class="'cell small-2"></div>
+                <div class="cell small-4">
                     <h2 class="subheader" align="center">Add CSI Code</h2>
                     <form data-abide novalidate>
                         <label for="division">Division</label>
@@ -33,10 +31,7 @@
                         <a class="button bg-dark cws-menu-text" href="#">Submit</a>
                     </form>
                 </div>
-                <div class="cell small-2 align-center"></div>
-                <div class="cell cmall-2">
-
-                </div>
+                <div class="cell small-4"></div>
             </div>
         </div>
     </div>
