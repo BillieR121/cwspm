@@ -26,40 +26,40 @@ use Illuminate\Support\Facades\Route;
 
     Route::get('/admin', 'AdminController@index')->name('admin.index');
 
-    // Admin Database Routes
+    // Admin Routes
 
-        Route::get('/admin/divisions', 'DivisionController@index')->name('division.index');
+        Route::get('/admin/divisions', 'DivisionController@index')->name('admin.divisions.index');
         // Admin Division Routes
 
-            Route::get('/admin/divisions/create', 'DivisionController@create')->name('division.create');
+            Route::get('/admin/divisions/create', 'DivisionController@create')->name('admin.divisions.create');
 
-        Route::get('/admin/csi', 'CsiMajorController@index')->name('csi.index');
+        Route::get('/admin/csi', 'CsiMajorController@index')->name('admin.csi.index');
         // Admin CSI Routes
 
-            Route::get('/admin/csi/create', 'CsiMajorController@create')->name('csi.create');
+            Route::get('/admin/csi/create', 'CsiMajorController@create')->name('admin.csi.create');
 
 
-        Route::get('/admin/users', 'UserController@index')->name('user.index');
+        Route::get('/admin/users', 'UserController@index')->name('admin.users.index');
         // Admin User Routes
 
-            Route::get('/admin/users/create', 'UserController@create')->name('user.create');
+            Route::get('/admin/users/create', 'UserController@create')->name('admin.users.create');
 
 
-        Route::get('/admin/contacts', 'ContactsController@index')->name('contacts.index');
+        Route::get('/admin/contacts', 'ContactsController@index')->name('admin.contacts.index');
         // Admin Contacts Routes
 
-            Route::get('/admin/contacts/create', 'ContactsController@create')->name('contacts.create');
+            Route::get('/admin/contacts/create', 'ContactsController@create')->name('admin.contacts.create');
 
 
-        Route::get('/admin/version', 'VersionController@index')->name('version.index');
+        Route::get('/admin/version', 'VersionController@index')->name('admin.version.index');
         // Admin Version Routes
 
-            Route::get('/admin/version/create', 'VersionController@create')->name('version.create');
+            Route::get('/admin/version/create', 'VersionController@create')->name('admin.version.create');
 
 // User Routes
 
 
-    // User Database Routes
+    // User Routes
 
 
 Route::get('/welcome', function () {

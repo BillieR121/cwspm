@@ -1,7 +1,7 @@
-@extends('layouts/admin-layout')
+@extends('layouts.admin-layout')
 
 @section('title')
-    CWS Admin Divisions
+    CWS Admin CSI Major
 @endsection
 
 @section('content')
@@ -9,18 +9,17 @@
         <div class="grid-container full">
             <div class="grid-x">
                 <div class="cell small-2">
-                    <ul class="vertical menu bg-dark">
+                    <ul class="menu vertical bg-dark">
                         <li>
-                            <a class="bg-dark cws-menu-text" href="{{ route('admin.divisions.index') }}">Division Index</a>
+                            <a class="bg-dark cws-menu-text" href="{{ route('admin.csi.index') }}">CSI Index</a>
                         </li>
                         <li>
-                            <a class="bg-dark cws-menu-text" href="{{ route('admin.divisions.create') }}">Add Division</a>
+                            <a class="bg-dark cws-menu-text" href="{{ route('admin.csi.create') }}">Add CSI Code</a>
                         </li>
                     </ul>
                 </div>
                 <div class="cell small-10">
-                    <h2 class="subheader" align="center">Divisions Index</h2><br><br>
-                </div>
+                    <h2 class="subheader" align="center">CSI Major Index</h2><br><br>
                 </div>
             </div>
         </div>
