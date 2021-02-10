@@ -19,8 +19,8 @@
                     </ul>
                 </div>
                 <div class="'cell small-2"></div>
-                <div class="cell small-4">
-                    <h2 class="subheader" align="center">Add CSI Code</h2>
+                <div class="cell small-4"><br>
+                    <h3 class="subheader" align="center">Add CSI Code</h3>
                     <form data-abide novalidate>
                         <label for="division">Division</label>
                         <input id="division" type="text" placeholder="Division"><br>
