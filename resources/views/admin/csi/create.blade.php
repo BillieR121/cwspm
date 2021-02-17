@@ -9,6 +9,7 @@
         <div class="grid-container full">
             <div class="grid-x">
                 <div class="cell small-2">
+                    <!-- Sidebar -->
                     <ul class="vertical menu bg-dark">
                         <li>
                             <a class="bg-dark cws-menu-text" href="{{ route('admin.csi.index') }}">CSI Index</a>
@@ -19,8 +20,8 @@
                     </ul>
                 </div>
                 <div class="'cell small-2"></div>
-                <div class="cell small-4"><br>
-                    <h3 class="subheader" align="center">Add CSI Code</h3>
+                <div class="cell small-4"><br><br>
+                    <h3 class="subheader" align="center">Add CSI Code</h3><br>
                     <form data-abide novalidate>
                         <label for="division">Division</label>
                         <input id="division" type="text" placeholder="Division"><br>
