@@ -8,8 +8,8 @@
     <div class="row">
         <div class="grid-container full">
             <div class="grid-x">
-                <div class="cell small-2">
-                    <ul class="menu vertical bg-dark admin-sidebar">
+                <div class="cell small-1">
+                    <ul class="menu vertical bg-dark">
                         <li>
                             <a class="bg-dark cws-menu-text" href="{{ route('admin.csi.index') }}">CSI Index</a>
                         </li>
@@ -18,7 +18,7 @@
                         </li>
                     </ul>
                 </div>
-                <div class="cell small-8">
+                <div class="cell small-9">
                     <h2 class="subheader" align="center">CSI Major Index</h2><br><br>
                 </div>
                 <div class="cell small-2"></div>
