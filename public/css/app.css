@@ -8100,6 +8100,10 @@ a.bg-dark:hover {
   align-content: middle;
 }
 
+.admin-sidebar {
+  padding-left: 55px;
+}
+
 /**
 * Construction Web Services
 * (c) copyright Construction Web Services/Billie Robertson

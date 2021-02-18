@@ -9,7 +9,7 @@
         <div class="grid-container full">
             <div class="grid-x">
                 <div class="cell small-2">
-                    <ul class="menu vertical bg-dark">
+                    <ul class="menu vertical bg-dark admin-sidebar">
                         <li>
                             <a class="bg-dark cws-menu-text" href="{{ route('admin.version.index') }}">Version Index</a>
                         </li>

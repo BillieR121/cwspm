@@ -9,7 +9,7 @@
         <div class="grid-container full">
             <div class="grid-x">
                 <div class="cell small-2">
-                    <ul class="vertical menu bg-dark">
+                    <ul class="vertical menu bg-dark admin-sidebar">
                         <li>
                             <a class="bg-dark cws-menu-text" href="{{ route('admin.divisions.index') }}">Division Index</a>
                         </li>
