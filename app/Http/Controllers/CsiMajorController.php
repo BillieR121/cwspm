@@ -2,6 +2,7 @@
 
 namespace App\Http\Controllers;
 
+use App\CsiMajor;
 use Illuminate\Http\Request;
 
 class CsiMajorController extends Controller
