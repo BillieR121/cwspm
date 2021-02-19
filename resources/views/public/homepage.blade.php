@@ -8,8 +8,8 @@
     <div class="row public-bg public-content">
         <div class="grid-container full">
             <div class="grid-x">
-                <div class="cell small-3 public-title">
-                    <h2 class="subheader">CWS<br> Home Page</h2>
+                <div class="cell small-4 public-title">
+                    <h2 class="subheader">CWS Home Page</h2>
                 </div>
                 <div class="cell small-6">
                     <h4 class="public-content">
@@ -19,7 +19,7 @@
                         We look forward to working with you!
                     </h4>
                 </div>
-                <div class="cell small-3"></div>
+                <div class="cell small-2"></div>
             </div>
         </div>
     </div>
