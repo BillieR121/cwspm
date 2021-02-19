@@ -37,6 +37,7 @@ use Illuminate\Support\Facades\Route;
         // Admin CSI Routes
 
             Route::get('/admin/csi/create', 'CsiMajorController@create')->name('admin.csi.create');
+            Route::get('/admin/csi/store', 'CsiMajorController@store')->name('admin.csi.store');
 
 
         Route::get('/admin/users', 'UserController@index')->name('admin.users.index');
