@@ -8086,6 +8086,20 @@ a.bg-dark:hover {
   opacity: 0.85 !important;
 }
 
+.required-before:before {
+  color: #DC143C;
+  font-weight: bold;
+  font-weight: bolder;
+  content: "* ";
+}
+
+.required-after:after {
+  color: #DC143C;
+  font-weight: bold;
+  font-weight: bolder;
+  content: " *";
+}
+
 .footer {
   height: 30px;
   width: 100%;

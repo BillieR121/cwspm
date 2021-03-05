@@ -100,9 +100,11 @@ $global-color-pick-contrast-tolerance: 0;
 $print-transparent-backgrounds: true;
 $print-hrefs: true;
 
-// CWS Global Settings
+// CWS Global Variables
 
 $cws-menu-text: $white;
+$cws-red: #DC143C;
+
 
 @include add-foundation-colors;
 

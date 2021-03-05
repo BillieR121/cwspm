@@ -5,6 +5,8 @@
 
 
 //Navigation
+//----------
+
 .bg-dark {
 	background-color: $dark-gray !important;
 }
@@ -13,12 +15,30 @@ a.bg-dark:hover{
 }
 
 // Text Control
+//-------------
+
 .cws-menu-text {
     color: $cws-menu-text !important;
     opacity: 0.85 !important;
 }
 
+.required-before:before {
+    color: $cws-red;
+    font-weight: bold;
+    font-weight: bolder;
+    content: "* ";
+}
+
+.required-after:after {
+    color: $cws-red;
+    font-weight: bold;
+    font-weight: bolder;
+    content: " *";
+}
+
 // Footer
+//--------
+
 .footer {
 	height: 30px;
 	width: 100%;
@@ -34,6 +54,8 @@ a.bg-dark:hover{
 }
 
 // Admin Sidebar
+//--------------
+
 .admin-sidebar {
     padding-left: 55px;
 }
