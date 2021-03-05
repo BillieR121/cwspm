@@ -2,8 +2,9 @@
 
 namespace App\Http\Controllers;
 
-use App\CsiMajor;
 use Illuminate\Http\Request;
+use App\Models\CsiMajor;
+use App\Models\Divisions;
 
 class CsiMajorController extends Controller
 {
@@ -24,7 +25,11 @@ class CsiMajorController extends Controller
      */
     public function create()
     {
-        return view('admin.csi.create');
+        $divisions = Divisions::all();
+
+        return view('admin.csi.create', [
+            'divisions' => $divisions
+        ]);
     }
 
     /**

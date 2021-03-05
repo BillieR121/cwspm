@@ -1,4 +1,5 @@
 /**
+* cws_global.scss
 * Construction Web Services
 * (c) copyright Construction Web Services/Billie Robertson
 */
@@ -10,7 +11,12 @@
 .bg-dark {
 	background-color: $dark-gray !important;
 }
+
 a.bg-dark:hover{
+    background-color: $light-gray !important;
+}
+
+a.bg-dark-active{
     background-color: $light-gray !important;
 }
 

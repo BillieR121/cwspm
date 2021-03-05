@@ -39,7 +39,7 @@
                             <a class="bg-dark cws-menu-text" href="{{ route('admin.divisions.index') }}">Divisions</a>
                         </li>
                         <li>
-                            <a class=" bg-dark cws-menu-text" href="{{ route('admin.csi.index') }}">CSI Codes</a>
+                            <a class="bg-dark cws-menu-text" href="{{ route('admin.csi.index') }}">CSI Codes</a>
                         </li>
                         <li>
                             <a class="bg-dark cws-menu-text" href="{{ route('admin.version.index') }}">Version</a>

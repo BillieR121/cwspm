@@ -27,11 +27,15 @@
                         @csrf
                         <div class="row">
                             <label for="division" class="required-after">Division</label>
-                            <select id="division" required><br>
+                            <select id="division" required>
+                                @foreach ($divisions as $division)
+                                    <option>{{ $division->division }} - {{ $division->description }}</option>
+                                @endforeach
+                            </select>
                             <label for="code" class="required-after">CSI Code</label>
-                            <input id="code" type="text" placeholder="CSI Code"><br>
+                            <input id="code" type="text" placeholder="ex. 00 00 00" required>
                             <label for="description" class="required-after">Desciption</label>
-                            <input id="description" type="text" placeholder="Description"><br>
+                            <input id="description" type="text" placeholder="Description" required>
                             <a class="button bg-dark cws-menu-text" href="{{ route('admin.csi.store') }}">Submit</a>
                         </div>
                     </form>
