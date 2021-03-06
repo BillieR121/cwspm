@@ -52,7 +52,7 @@ a.bg-dark-active{
 
 .cws-table-wrapper th {
     background-color: $dark-gray;
-    color: $cws-menu-text;
+    color: $cws-menu-text !important;
     border: 1px solid $dark-gray;
     text-align: left;
     padding: 3px;

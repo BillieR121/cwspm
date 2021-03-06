@@ -8112,7 +8112,7 @@ a.bg-dark-active {
 
 .cws-table-wrapper th {
   background-color: #343a40;
-  color: #fefefe;
+  color: #fefefe !important;
   border: 1px solid #343a40;
   text-align: left;
   padding: 3px;

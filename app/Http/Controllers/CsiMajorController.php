@@ -5,7 +5,6 @@ namespace App\Http\Controllers;
 use Illuminate\Http\Request;
 use App\Models\CsiMajor;
 use App\Models\Divisions;
-use Illuminate\Contracts\Pagination\Paginator;
 
 class CsiMajorController extends Controller
 {
