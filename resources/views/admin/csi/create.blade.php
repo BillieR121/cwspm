@@ -1,7 +1,7 @@
 @extends('layouts/admin-layout')
 
 @section('title')
-    CWS Admin Add CSI Codes
+    CWS Admin - Add CSI Codes
 @endsection
 
 @section('content')

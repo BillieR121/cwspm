@@ -5,6 +5,7 @@ namespace App\Http\Controllers;
 use Illuminate\Http\Request;
 use App\Models\CsiMajor;
 use App\Models\Divisions;
+use Illuminate\Contracts\Pagination\Paginator;
 
 class CsiMajorController extends Controller
 {
@@ -15,7 +16,12 @@ class CsiMajorController extends Controller
      */
     public function index()
     {
-        return view('admin.csi.index');
+        $codes = CsiMajor::all();
+        //$codes = CsiMajor::paginate(10);
+
+        return view('admin.csi.index', [
+            'codes' => $codes
+        ]);
     }
 
     /**

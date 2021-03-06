@@ -8105,6 +8105,28 @@ a.bg-dark-active {
   content: " *";
 }
 
+.table-wrapper {
+  overflow-y: scroll;
+  height: 618px;
+}
+
+.table-wrapper th {
+  background-color: #343a40;
+  color: #fefefe;
+  border: 1px solid #343a40;
+  text-align: left;
+  padding: 8px;
+  position: -webkit-sticky;
+  position: sticky;
+  top: 0;
+}
+
+.table-wrapper td {
+  border: 1px solid #343a40;
+  text-align: left;
+  padding: 8px;
+}
+
 .footer {
   height: 30px;
   width: 100%;

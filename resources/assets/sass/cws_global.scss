@@ -42,6 +42,30 @@ a.bg-dark-active{
     content: " *";
 }
 
+// Table Control
+//--------------
+
+.table-wrapper{
+    overflow-y: scroll;
+    height: 618px;
+  }
+
+.table-wrapper th {
+    background-color: $dark-gray;
+    color: $cws-menu-text;
+    border: 1px solid $dark-gray;
+    text-align: left;
+    padding: 8px;
+    position: sticky;
+    top: 0;
+}
+
+.table-wrapper td {
+    border: 1px solid $dark-gray;
+    text-align: left;
+    padding: 8px;
+}
+
 // Footer
 //--------
 
