@@ -17,7 +17,6 @@ class CsiMajorController extends Controller
     public function index()
     {
         $codes = CsiMajor::all();
-        //$codes = CsiMajor::paginate(10);
 
         return view('admin.csi.index', [
             'codes' => $codes

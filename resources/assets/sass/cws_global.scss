@@ -45,25 +45,24 @@ a.bg-dark-active{
 // Table Control
 //--------------
 
-.table-wrapper{
+.cws-table-wrapper{
     overflow-y: scroll;
-    height: 618px;
+    height: 622px;
   }
 
-.table-wrapper th {
+.cws-table-wrapper th {
     background-color: $dark-gray;
     color: $cws-menu-text;
     border: 1px solid $dark-gray;
     text-align: left;
-    padding: 8px;
+    padding: 3px;
     position: sticky;
     top: 0;
 }
 
-.table-wrapper td {
+.cws-table-wrapper td {
     border: 1px solid $dark-gray;
-    text-align: left;
-    padding: 8px;
+    padding: 3px;
 }
 
 // Footer
