@@ -18,7 +18,7 @@
                         </li>
                     </ul>
                 </div>
-                <div class="cell small-2"></div>
+                <div class="cell small-1"></div>
                 <div class="cell small-7">
                     <h2 class="subheader" align="center">CSI Major Index</h2><br>
                     <div class="cws-table-wrapper">
@@ -46,7 +46,7 @@
                         </table>
                     </div>
                 </div>
-                <div class="cell small-2"></div>
+                <div class="cell small-3"></div>
             </div>
         </div>
     </div>

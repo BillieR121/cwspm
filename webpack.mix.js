@@ -1,3 +1,4 @@
+const { inProduction } = require('laravel-mix');
 const mix = require('laravel-mix');
 
 /*

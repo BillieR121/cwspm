@@ -57,7 +57,7 @@
             @yield('content')
                 <footer>
                     <div class="footer text-center cws-menu-text">
-                        <p class="font-weight-bold">Copyright &copy; Construction Web Services  2019 - {{ now()->year }} Version <strong><em>{{ $version }}</em></strong></p>
+                        <p class="font-weight-bold">Copyright &copy; Construction Web Services  2019 - {{ now()->year }} Version <strong><em>{{ $version }}</em></strong> All Rights Reserved</p>
                     </div>
                 </footer>
             <script src="{{ mix('js/app.js') }}"></script>
