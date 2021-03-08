@@ -1,8 +1,12 @@
 @import "../js/jquery-ui/jquery-ui";
-@import "../js/jtable/themes/metro/jtable_metro_base";
-@import "../js/jtable/themes/metro/darkgray/jtable";
+@import "../js/DataTables/css/dataTables.jqueryui.css";
+@import "../js/DataTables/css/dataTables.foundation.css";
 @import "foundation-sites/scss/foundation";
 @include foundation-everything;
+
+/**
+* CWS .css and .scss File import
+**/
 
 @import "cws_global";
 @import "public_style";
